@@ -1,0 +1,72 @@
+* {
+    margin: 0; 
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+h1, h2, h3, h4,h5, h6 {
+    margin: 0px;
+}
+
+nav {
+    background: blueviolet;
+    height: 80px;
+}
+
+nav section:first-of-type {
+    float: left;
+}
+
+nav>section:last-of-type {
+    float: right;
+}
+
+nav > section:first-of-type h1 {
+    color: white;
+    cursor: pointer;
+    line-height: 80px;
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+
+nav section:last-of-type ul {
+    line-height: 80px;
+    margin-right: 40px;    
+}
+
+nav section:last-of-type ul li {
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 40px;
+    text-transform: uppercase;  
+}
+
+nav section:last-of-type ul li:last-of-type {
+    margin: 0px;
+}
+
+nav section:last-of-type :nth-last-of-type(even){
+    color: violet;
+}
+
+
+nav section:last-of-type :nth-last-of-type(odd) {
+    color: blue;
+}
+
+header {
+    background-color: blueviolet;
+    height: 88vh;
+}
+
+header h1 {
+    color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 88vh;
+}
